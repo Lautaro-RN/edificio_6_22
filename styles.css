@@ -29,52 +29,8 @@ header, section, footer {
 			background-color: rgba(225, 0, 0, 1.0);
 		}
 
-		#hamb {
-			background: darkorange;
-			height: 64px;
-			max-width: 68px;
-			padding: 18px;
-			float: right;
-		}
-			span {
-				display: block;
-				width: 54px;
-				height: 8px;
-				background-color: black;
-				margin: 6px;
-				float: right;
-			}
-			
-			#enlaces {display: none;}
-	#opt_menu_desp{
-		width: 100%;
-	}
-		.nav_menu_desp {
-			margin-top: 50px;
-			width: 100%;
-			background: black;
-			display: none;
-			position: fixed;
-			height: 250px;
-		}
-		/*.active{display: block;}*/
-			.btns_menu_desp {
-				background: darkorange;
-				list-style-type: none;
-				padding: 0px;
-			}
-				.btn_botonera {
-					background-color: saddlebrown;
-					border-top: 1px solid white;
-					text-align: center;
-					padding: 20px;
-				}
-					.btn_botonera a {
-						text-decoration: none;
-						font-size: 30px;
-						color: white;
-					}
-
+	#opt_menu_desp{width: 100%;}
+		
 	#desborde {
 		background-color: rgba(255, 0, 0, 1.0);
 		height: 50px;
